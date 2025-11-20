@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
-  base: "/saroj-lamichhane/",   // 👈 REQUIRED FOR GitHub Pages
+  base: "/saroj-lamichhane/",  
   server: {
     host: "localhost",
     port: 5173,

@@ -3,15 +3,14 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
-  base: "/saroj-lamichhane/",   // your repo name — important!
+  base: "/saroj-lamichhane/",   // 👈 REQUIRED FOR GitHub Pages
   server: {
     host: "localhost",
     port: 5173,
     open: true,
   },
   plugins: [
-    react(),
-    // componentTagger() // keep commented
+    react()
   ],
   resolve: {
     alias: {
